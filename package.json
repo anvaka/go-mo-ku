@@ -1,0 +1,17 @@
+{
+  "name": "go-mo-ku",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "tap": "^15.0.10",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "ngraph.events": "^1.2.1",
+    "query-state": "^4.3.0"
+  }
+}
