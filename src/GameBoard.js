@@ -135,7 +135,7 @@ export default class GameBoard {
    * nothing is returned. Otherwise a {symbol, sequence} object is returned.
    */
   getWinner() {
-    this.cleanWinnerCheck();
+    this.positions.forEach(pos => pos.clean());
 
     // Note: This code is fast. It can be made even faster if we limit scope to
     // check positions within `winLength` range to the last played symbol.
@@ -163,11 +163,6 @@ export default class GameBoard {
     }
   }
 
-  cleanWinnerCheck() {
-    this.positions.forEach(pos => {
-      pos.clean();
-    });
-  }
 }
 
 /**
@@ -209,6 +204,13 @@ function getLongestSequence(pos, board, leftDx, leftDy, rightDx, rightDy, checkN
   return {minLeft, minTop, maxRight, maxBottom, dx: rightDx, dy: rightDy};
 }
 
+/**
+ * Given a bounding box of the longest sequence, this function
+ * will return a winner if the length of the sequence is greater
+ * than or equal to `winLength`.
+ * 
+ * Otherwise undefined is returned.
+ */
 function filterWinner(boundingBox, consequentSymbolCountToWin) {
   if (!boundingBox) return; // No winner here.
 
