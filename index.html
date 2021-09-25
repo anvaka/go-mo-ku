@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play tic-tac-toe and others</title>
+    <script type="module" crossorigin src="assets/index.4f5be82d.js"></script>
+    <link rel="modulepreload" href="assets/vendor.a705dd4e.js">
+    <link rel="stylesheet" href="assets/index.1610f1a4.css">
+  </head>
+  <body class='full-screen'>
+    <div class='info'>
+      <h3>Serverless tic-tac-toe</h3>
+      <p>Make a move and send the website's address to your friend. Ask them to send the address back to you after they make a move.
+      </p>
+      <p>
+      The board is <input id="board-width" class='stress auto-size' min='3' type='number'/><span class='stress vs'>x</span> <input id="board-height" class='stress auto-size' type='number' min='3'/> <br/>
+      You need <input id="in-a-row" class='stress auto-size' type='number' min='3'/> in a row to win. Next move is: <span id="next-move" class='stress'></span></p>
+    </div>
+    <div class='controls'>
+      <a href='#' id='clear'>Clear board</a>
+      <a href='#' id='hide-info'>Hide info</a>
+      <a href='#' id='copy'>Copy link</a>
+    </div>
+    <div id='board-container'>
+      <div id='board' tabindex='0'></div>
+    </div>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47259320-1', 'anvaka.github.io');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
