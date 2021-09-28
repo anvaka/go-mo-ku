@@ -1,10 +1,12 @@
 {
   "name": "go-mo-ku",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "tap tests/*.js"
   },
   "devDependencies": {
     "tap": "^15.0.10",
