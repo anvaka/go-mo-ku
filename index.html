@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TXT6313TGG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TXT6313TGG');
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play tic-tac-toe and others</title>
+    <script type="module" crossorigin src="assets/index.1cc9cb18.js"></script>
+    <link rel="stylesheet" href="assets/index.1610f1a4.css">
+  </head>
+  <body class='full-screen'>
+    <div class='info'>
+      <h3>Serverless tic-tac-toe</h3>
+      <p>Make a move and send the website's address to your friend. Ask them to send the address back to you after they make a move.
+      </p>
+      <p>
+      The board is <input id="board-width" class='stress auto-size' min='3' type='number'/><span class='stress vs'>x</span> <input id="board-height" class='stress auto-size' type='number' min='3'/> <br/>
+      You need <input id="in-a-row" class='stress auto-size' type='number' min='3'/> in a row to win. Next move is: <span id="next-move" class='stress'></span></p>
+    </div>
+    <div class='controls'>
+      <a href='#' id='clear'>Clear board</a>
+      <a href='#' id='hide-info'>Hide info</a>
+      <a href='#' id='copy'>Copy link</a>
+    </div>
+    <div id='board-container'>
+      <div id='board' tabindex='0'></div>
+    </div>
+    
+  </body>
+</html>
