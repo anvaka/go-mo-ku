@@ -1,0 +1,336 @@
+{
+  "result": [
+    {
+      "scriptId": "322",
+      "url": "file:///Users/anvaka/projects/go-mo-ku/src/GameBoard.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 6898,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "GameBoard",
+          "ranges": [
+            {
+              "startOffset": 266,
+              "endOffset": 762,
+              "count": 9
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "resize",
+          "ranges": [
+            {
+              "startOffset": 839,
+              "endOffset": 934,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "setWinCondition",
+          "ranges": [
+            {
+              "startOffset": 1002,
+              "endOffset": 1101,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "play",
+          "ranges": [
+            {
+              "startOffset": 1106,
+              "endOffset": 1343,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "placeSymbol",
+          "ranges": [
+            {
+              "startOffset": 1482,
+              "endOffset": 2362,
+              "count": 29
+            },
+            {
+              "startOffset": 1573,
+              "endOffset": 1634,
+              "count": 0
+            },
+            {
+              "startOffset": 1668,
+              "endOffset": 1730,
+              "count": 0
+            },
+            {
+              "startOffset": 1749,
+              "endOffset": 1811,
+              "count": 0
+            },
+            {
+              "startOffset": 1902,
+              "endOffset": 1928,
+              "count": 23
+            },
+            {
+              "startOffset": 1964,
+              "endOffset": 2166,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getLastPlayedPosition",
+          "ranges": [
+            {
+              "startOffset": 2447,
+              "endOffset": 2580,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "undoLastMove",
+          "ranges": [
+            {
+              "startOffset": 2584,
+              "endOffset": 2904,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "clear",
+          "ranges": [
+            {
+              "startOffset": 2908,
+              "endOffset": 3062,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "getNextMoveSymbol",
+          "ranges": [
+            {
+              "startOffset": 3066,
+              "endOffset": 3142,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "getPosition",
+          "ranges": [
+            {
+              "startOffset": 3146,
+              "endOffset": 3240,
+              "count": 96
+            },
+            {
+              "startOffset": 3210,
+              "endOffset": 3217,
+              "count": 39
+            },
+            {
+              "startOffset": 3217,
+              "endOffset": 3239,
+              "count": 57
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getWinner",
+          "ranges": [
+            {
+              "startOffset": 3412,
+              "endOffset": 4743,
+              "count": 9
+            },
+            {
+              "startOffset": 4267,
+              "endOffset": 4370,
+              "count": 6
+            },
+            {
+              "startOffset": 4371,
+              "endOffset": 4475,
+              "count": 3
+            },
+            {
+              "startOffset": 4476,
+              "endOffset": 4581,
+              "count": 1
+            },
+            {
+              "startOffset": 4739,
+              "endOffset": 4742,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 3453,
+              "endOffset": 3471,
+              "count": 29
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getLongestSequence",
+          "ranges": [
+            {
+              "startOffset": 5192,
+              "endOffset": 6117,
+              "count": 19
+            },
+            {
+              "startOffset": 5301,
+              "endOffset": 5308,
+              "count": 0
+            },
+            {
+              "startOffset": 5494,
+              "endOffset": 5529,
+              "count": 0
+            },
+            {
+              "startOffset": 5531,
+              "endOffset": 5687,
+              "count": 0
+            },
+            {
+              "startOffset": 5832,
+              "endOffset": 5868,
+              "count": 20
+            },
+            {
+              "startOffset": 5870,
+              "endOffset": 6039,
+              "count": 20
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "filterWinner",
+          "ranges": [
+            {
+              "startOffset": 6328,
+              "endOffset": 6898,
+              "count": 19
+            },
+            {
+              "startOffset": 6413,
+              "endOffset": 6420,
+              "count": 0
+            },
+            {
+              "startOffset": 6579,
+              "endOffset": 6582,
+              "count": 5
+            },
+            {
+              "startOffset": 6583,
+              "endOffset": 6587,
+              "count": 14
+            },
+            {
+              "startOffset": 6647,
+              "endOffset": 6664,
+              "count": 25
+            },
+            {
+              "startOffset": 6666,
+              "endOffset": 6722,
+              "count": 20
+            },
+            {
+              "startOffset": 6750,
+              "endOffset": 6773,
+              "count": 13
+            },
+            {
+              "startOffset": 6775,
+              "endOffset": 6820,
+              "count": 9
+            },
+            {
+              "startOffset": 6872,
+              "endOffset": 6896,
+              "count": 9
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "324",
+      "url": "file:///Users/anvaka/projects/go-mo-ku/src/Position.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 629,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "Position",
+          "ranges": [
+            {
+              "startOffset": 240,
+              "endOffset": 469,
+              "count": 29
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "clean",
+          "ranges": [
+            {
+              "startOffset": 473,
+              "endOffset": 626,
+              "count": 29
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 210717.554876,
+  "source-map-cache": {}
+}

@@ -1,0 +1,28 @@
+TAP version 14
+# Subtest: it can find winner in 3x3
+    ok 1 - should be equal
+    ok 2 - should be equivalent
+    ok 3 - should be equal
+    ok 4 - should be equivalent
+    ok 5 - should be equal
+    ok 6 - should be equivalent
+    ok 7 - should be equal
+    ok 8 - should be equivalent
+    ok 9 - should be equal
+    ok 10 - should be equivalent
+    ok 11 - should be equal
+    ok 12 - should be equivalent
+    ok 13 - should be equal
+    ok 14 - should be equivalent
+    ok 15 - should be equal
+    ok 16 - should be equivalent
+    1..16
+ok 1 - it can find winner in 3x3 # time=2.616ms
+
+# Subtest: it can find winner in 100x100
+    ok 1 - should be equal
+    ok 2 - should be equivalent
+    1..2
+ok 2 - it can find winner in 100x100 # time=0.269ms
+
+1..2
